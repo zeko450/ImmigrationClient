@@ -1,0 +1,13 @@
+img {
+    width: 100%;
+    height: 400px;
+  }
+  
+  .container-banner {
+  margin-top: 0px;
+  padding: 150px, 0, 100px 0; 
+}
+
+.carousel-indicators {
+  font-size: 0px;
+}
