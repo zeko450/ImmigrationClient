@@ -1,0 +1,22 @@
+<div class="text-center mt-5">
+    <div class="mt-2 mb-5">
+        <h1 class="text-danger"> Bienvenue </h1>
+    </div>
+    <div class="">
+        <form (ngSubmit)="authentifierUsager()">
+            
+            <label class="mx-4" for="email">Email : &nbsp;</label>
+            <input type="text" id="email" name="email" [(ngModel)]="courriel">
+            
+            <br><br>
+            
+            <label for="password">Mot de passe : </label>
+            <input type="password" id="password" name="password" [(ngModel)]="password"><br><br>
+           
+            <a href=""> Mot de passe oublié ?</a>
+            &nbsp; <input class="mx-5 btn btn-danger" type="submit" value="Connexion">
+        </form>
+        <br>
+        <input class="mx-5 border-solid btn  text-red btn-outline-dark " type="submit" value="S'inscrire">
+    </div>
+</div>
