@@ -1,0 +1,132 @@
+/* Font face*/
+
+@font-face {
+	font-family: Centra;
+	src: url('/client/src/assets/fonts/CentraNo2-Bold.ttf');
+	font-weight: 700;
+}
+@font-face {
+	font-family: Centra;
+	src: url('/client/src/assets/fonts/CentraNo2-Bold.ttf');
+	font-weight: 500;
+}
+@font-face {
+	font-family: Centra;
+	src: url('/client/src/assets/fonts/CentraNo2-Bold.ttf');
+	font-weight: 400;
+}
+
+/*Default CSS */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 75px;
+  }
+
+body {
+    font-weight: 400;
+    overflow-x: hidden;
+    position: relative;
+    background-color: white!important;
+    color: #fff !important;
+    font-family: 'Centra', sans-serif !important;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+    line-height: normal;
+  }
+
+  p, a, li, button, ul {
+    margin: 0;
+    padding: 0;
+    line-height: normal;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: none;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+  }
+  
+  button {
+    border: 0;
+    background-color: transparent;
+  }
+  
+  input:focus, textarea:focus, select:focus {
+    outline: none;
+  }
+
+  @media (min-width:1700px) {
+	main .container {
+		max-width: 100%;
+		padding: 0 150px;
+
+	}
+}
+
+/* TextBox CSS  */
+
+#containerbox {
+  background-color: rgba(127,127,127,1);
+  height:fit-content;
+}
+
+h3 {
+  font-size: 2.5 vw !important;
+}
+
+p {
+  font-size: 1.5vw !important;
+}
+
+
+
+@media (max-width:450px) {
+  .col-6 {
+    width: 100% !important;
+  }
+  p, button {
+    font-size: 1.8vw !important;
+  }
+  h3 {
+    font-size: 2.5vw !important;
+  }
+} 
+
+@media (max-width:775px) {
+  .col-6 {
+    width: 100% !important;
+  }
+  p, button {
+    font-size: 1.8vw !important;
+  }
+  h3 {
+    font-size: 2.5vw !important;
+  }
+} 
+
+
+@media (max-width:1000px) {
+  .col-6 {
+    width: 100% !important;
+  }
+  p, button {
+    font-size: 1.8vw !important;
+  }
+  h3 {
+    font-size: 2.5vw !important;
+  }
+} 
