@@ -1,0 +1,19 @@
+@font-face {
+	font-family: Centra;
+	src: url('/client/src/assets/fonts/CentraNo2-Bold.ttf');
+	font-weight: 700;
+}
+@font-face {
+	font-family: Centra;
+	src: url('/client/src/assets/fonts/CentraNo2-Bold.ttf');
+	font-weight: 500;
+}
+@font-face {
+	font-family: Centra;
+	src: url('/client/src/assets/fonts/CentraNo2-Bold.ttf');
+	font-weight: 400;
+}
+
+body {
+    font-family: 'Centra', sans-serif !important;
+}
