@@ -1,4 +1,6 @@
 p, a, li, button, ul {
+    margin: 0;
+    padding: 0;
     line-height: normal;
     text-decoration: none;
   }
@@ -6,3 +8,4 @@ p, a, li, button, ul {
   a:hover {
     text-decoration: none;
   }
+  
